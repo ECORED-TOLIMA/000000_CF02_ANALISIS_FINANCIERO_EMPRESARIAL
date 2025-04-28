@@ -3,12 +3,13 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 10%
+    right: 80%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    bottom: 15%
+    top: 35%
+    right: 4%
 
 
 @keyframes float1
@@ -17,6 +18,19 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
+
+@keyframes scale
+  0%
+    transform: scale(1)
+
+  100%
+    transform: scale(1.2)
   
   
 .banner-principal .tarjeta
@@ -25,39 +39,74 @@
 .banner-principal__row .banner-principal__img
   width: 400px !important  
 
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img01.png") !important
+
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+  color: black !important   
 
 figcaption
   font-weight: normal
 
-.BG03
-  background-color: #B5CCAD
+.boton *, .boton--sm *
+  color: #ffff !important
 
-//- tarjeta de deslizamiento arriba abajo 
-.tarjetas-up
-  overflow: hidden
-  border-radius: 5px
-  position: relative
-  &_card
-    transition: bottom .3s ease-in-out
-    position: absolute
-    border-radius: 5px
-    width: 100%
-    min-height: auto
-    left: 0
-    bottom: 0%
-    transform: translateY(calc(100% - 3.7rem))
-    padding: 1.5rem
-    i:last-child
-      display: none
-  &:hover
-    .tarjetas-up_card
-      transform: translateY(0)
-    i:first-child
-      display: none
-    i:last-child
-      display: block
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, .lista-ul li
+  display: flex
+
+.cajon.color-primario, .tarjeta--gris2, .BG03, .bgA10
+  background-color: #F1F8E9
+
+.cajon.color-secundario, .titulo1
+  background-color: #E5E9FE
+
+.fondo2-t2
+  background: linear-gradient(to bottom, #FFF, #EEF0FE, #FFF)
+  margin-inline: -3rem
+  @media screen and (max-width: $bp-max-sm)
+    margin-inline: -1.5rem
+
+.fondo3-t3
+  background: linear-gradient(to bottom, #FFF, #F6FBF2, #FFF)
+  margin-inline: -3rem
+  @media screen and (max-width: $bp-max-sm)
+    margin-inline: -1.5rem
+
+.tcvo
+  color: #474D41 !important
+
+.bg
+  &-t1-1
+    background-color: #E5E9FE
  
 .barra-avance__boton--regresar span
   color: #fff !important
+
+.acordion__accion__btn--a
+  color: #ffff
+  border: none
+
+.acordion__accion__btn--a
+  background-color: #7b1fa2
+
+.bloque-texto-d
+  border-top: none
+
+.bloque-texto-d.color-primario::before
+  background-color: #F1F8E9
+  display: block
+  position: absolute
+  top: 40%
+  bottom: 0px
+  left: 58%
+  right: 0px
+
+.bloque-texto-d.color-primario.especial::before
+  background-color: #F1F8E9
+  display: block
+  position: absolute
+  top: 40%
+  bottom: 0px
+  left: 55%
+  right: 0px
+

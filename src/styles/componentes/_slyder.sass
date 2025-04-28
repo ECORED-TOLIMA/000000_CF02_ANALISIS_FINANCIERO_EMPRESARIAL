@@ -167,3 +167,47 @@
   &__slyde
     & > .tarjeta
       height: 100%
+
+.tarjeta--slyder  
+  height: 100%
+  background-color: white
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+  text-align: center
+
+.custom
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.5rem 
+
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+
+.fa-chevron-right, .fa-chevron-left
+  color: #7B1FA2
+
+////////// Estilo botonera SlyderA --------------------------------------------------
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #7B1FA2
+  color: #ffff !important
+  background-image: url(../assets/bullets/arrow-white.svg)
+  background-repeat: no-repeat
+  background-position: center
+
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  transform: rotate(180deg)
+  left: 15px
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  transform: rotate(0deg)
+  right: 15px
+
+.slyder-a__bullets__item
+  background-color: #BAC36A
+  @media (max-width: 450px)
+    margin: 0 5px
+  @media (max-width: 400px)
+    margin: 0 4px
+
+.slyder-a__bullets__item--active, .acordion__accion__btn--a
+  background-color: #7B1FA2
