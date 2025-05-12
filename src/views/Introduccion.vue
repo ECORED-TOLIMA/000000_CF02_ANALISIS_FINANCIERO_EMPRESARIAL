@@ -16,7 +16,7 @@
 
       .col-lg-5.col-8.mb-lg-0.mb-4.order-lg-2.order-1(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/introduccion/img-01.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/introduccion/img-01.png', alt='Texto que describa la imagen')
     
     .row.justify-content-center.align-items-center           
       .col-lg-12

@@ -6,7 +6,7 @@
     </linearGradient>
     <linearGradient id="linear-gradient-4" xlink:href="#linear-gradient"/>
   </defs>
-  <g id="Grupo_1119908" data-name="Grupo 1119908" transform="translate(-285.332 -3611.535)">
+  <g id="img-14" transform="translate(-285.332 -3611.535)">
     <rect id="Rectángulo_401121" data-name="Rectángulo 401121" width="295" height="153.429" rx="30" transform="translate(285.332 3652.269)" fill="#bfc9ff"/>
     <g id="Слой_1" data-name="Слой 1" transform="translate(319.978 3611.535)">
       <g id="Grupo_1120569" data-name="Grupo 1120569">
@@ -39,7 +39,7 @@
           <path id="Trazado_907594" data-name="Trazado 907594" d="M468.684,402.292l-12.215,36.341a64.994,64.994,0,0,1-13.061,22.558,66.157,66.157,0,0,1-44.247,21.982,65.4,65.4,0,0,1-48.426-16.278,66.157,66.157,0,0,1-21.982-44.247,64.963,64.963,0,0,1,3.217-25.867l12.215-36.341,30.662,10.307-12.215,36.341a33.325,33.325,0,0,0,63.176,21.238l12.215-36.341,30.662,10.307Z" transform="translate(-328.555 -325.712)" fill="#ff4a1e"/>
           <rect id="Rectángulo_410185" data-name="Rectángulo 410185" width="32.37" height="36.64" transform="translate(27.304 0) rotate(18.58)" fill="#eaeaea"/>
           <rect id="Rectángulo_410186" data-name="Rectángulo 410186" width="32.37" height="36.64" transform="translate(121.121 31.538) rotate(18.58)" fill="#eaeaea"/>
-          <path id="Trazado_907595" data-name="Trazado 907595" d="M383.6,449.294l-10.307,30.662a64.973,64.973,0,0,1-22.558-13.063,66.157,66.157,0,0,1-21.982-44.247,64.963,64.963,0,0,1,3.217-25.866l12.215-36.341,30.662,10.307-12.215,36.341A33.47,33.47,0,0,0,383.6,449.294Z" transform="translate(-328.555 -325.712)" fill="#7b1fa2"/>
+          <path id="Trazado_907595" data-name="Trazado 907595" d="M383.6,449.294l-10.307,30.662a64.973,64.973,0,0,1-22.558-13.063,66.157,66.157,0,0,1-21.982-44.247,64.963,64.963,0,0,1,3.217-25.866l12.215-36.341,30.662,10.307-12.215,36.341A33.47,33.47,0,0,0,383.6,449.294Z" transform="translate(-328.555 -325.712)" fill="#1f5ca2"/>
         </g>
         <g id="Grupo_1120568" data-name="Grupo 1120568" transform="translate(111.322 90.732)">
           <g id="Grupo_1120565" data-name="Grupo 1120565">
@@ -66,8 +66,8 @@
           </g>
           <g id="Grupo_1120567" data-name="Grupo 1120567" transform="translate(16.077 28.263)">
             <g id="Grupo_1120566" data-name="Grupo 1120566">
-              <path id="Trazado_907616" data-name="Trazado 907616" d="M839.67,763.165h19.819l5.961-14.825H845.663Z" transform="translate(-833.551 -748.34)" fill="#7c409c"/>
-              <path id="Trazado_907617" data-name="Trazado 907617" d="M827.36,837.94H801.19v.577h25.938Z" transform="translate(-801.19 -823.692)" fill="#56309e"/>
+              <path id="Trazado_907616" data-name="Trazado 907616" d="M839.67,763.165h19.819l5.961-14.825H845.663Z" transform="translate(-833.551 -748.34)" fill="#636363"/>
+              <path id="Trazado_907617" data-name="Trazado 907617" d="M827.36,837.94H801.19v.577h25.938Z" transform="translate(-801.19 -823.692)" fill="#636363"/>
             </g>
             <path id="Trazado_907618" data-name="Trazado 907618" d="M922.665,789.963a.686.686,0,0,0-.673-.943,1.355,1.355,0,0,0-1.215.943.686.686,0,0,0,.673.943A1.355,1.355,0,0,0,922.665,789.963Z" transform="translate(-901.73 -782.551)" fill="#fff"/>
           </g>

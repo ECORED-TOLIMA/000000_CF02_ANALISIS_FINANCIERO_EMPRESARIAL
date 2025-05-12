@@ -7,9 +7,9 @@
         span 1
       h1 Conceptos generales de los indicadores financieros
 
-    p.mb-5(data-aos="fade-down-right") Los indicadores financieros son herramientas cuantitativas esenciales en el análisis económico de las organizaciones. A partir de datos extraídos de los estados financieros, estos indicadores permiten construir relaciones numéricas que ayudan a entender la situación real de una empresa. Su propósito no es únicamente describir cifras, sino traducir la información contable en señales claras para evaluar la estabilidad, el rendimiento y la gestión financiera. Se convierten así en instrumentos que brindan una radiografía del estado económico de una empresa en un periodo determinado o en comparación con ejercicios anteriores o referentes del sector.
+    p.mb-4(data-aos="fade-down-right") Los indicadores financieros son herramientas cuantitativas esenciales en el análisis económico de las organizaciones. A partir de datos extraídos de los estados financieros, estos indicadores permiten construir relaciones numéricas que ayudan a entender la situación real de una empresa. Su propósito no es únicamente describir cifras, sino traducir la información contable en señales claras para evaluar la estabilidad, el rendimiento y la gestión financiera. Se convierten así en instrumentos que brindan una radiografía del estado económico de una empresa en un periodo determinado o en comparación con ejercicios anteriores o referentes del sector.
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down-right")(style="background-color:#B0BDA0") 
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade-down-right")(style="background-color:#B0BDA0") 
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-01.png')})`}"
       )
@@ -34,13 +34,13 @@
             |  ¿Aprovecha eficientemente sus activos?   
 
     p(data-aos="fade-down-right") En consecuencia, estos indicadores se convierten en piezas fundamentales en la toma de decisiones empresariales fundamentadas y proactivas.
-    p.mb-5(data-aos="fade-down-right") La utilidad de los indicadores va más allá del diagnóstico financiero. También cumplen un rol fundamental en la planificación, control y evaluación dentro del proceso administrativo. Gerentes, inversionistas, entidades financieras y entes de control, utilizan estas métricas para: 
+    p.mb-4(data-aos="fade-down-right") La utilidad de los indicadores va más allá del diagnóstico financiero. También cumplen un rol fundamental en la planificación, control y evaluación dentro del proceso administrativo. Gerentes, inversionistas, entidades financieras y entes de control, utilizan estas métricas para: 
 
-    .tarjeta1.tarjeta--BG02.px-md-5.px-4.mb-5
+    .tarjeta1.tarjeta--BG02.px-md-5.px-4.mb-4
       .row.justify-content-center.align-items-center(data-aos="fade-down")
         .col-lg-3.d-none.d-lg-block
           figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/tema1/img-02.svg", alt="alt").img400.m-auto
+            img(src="@/assets/curso/temas/tema1/img-02.png", alt="alt").img400.m-auto
         .col-lg-9
           SlyderF.custom(columnas="col-lg-6 col-xl-4")
             .tarjeta.tarjeta--slyder.p-4
@@ -74,7 +74,7 @@
 
     p.mb-4(data-aos="fade-down-right") Los indicadores financieros se agrupan comúnmente en cuatro grandes categorías, cada una con una función específica:  
 
-    .row.mb-5(data-aos="flip-up")
+    .row.mb-4(data-aos="flip-up")
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color:#F1F8E9")
         .row.justify-content-center.mb-3
           .col-4
@@ -100,7 +100,7 @@
         h4.text-center Indicadores de eficiencia o gestión
         p.text-center Permiten valorar cómo se están utilizando los recursos disponibles. 
 
-    .row.justify-content-center.mb-5(data-aos="fade-down-right")
+    .row.justify-content-center.mb-4(data-aos="fade-down-right")
       .bloque-texto-d.color-primario.col-lg-10.col-12.p-2
         .bloque-texto-d__texto.mb-2
           p Los indicadores financieros, como se expuso, se agrupan en cuatro grandes categorías fundamentales, cada una enfocada en analizar aspectos distintos pero complementarios de la situación económica de una empresa. Esta clasificación facilita una comprensión integral del desempeño financiero, permitiendo a los analistas, gerentes y empresarios tomar decisiones más acertadas, basadas en datos concretos y evaluaciones objetivas. Retomando a Ortiz (2011), se da una explicación de cada una:
@@ -346,9 +346,9 @@
       .col-md-8.tarjeta.color-primario.p-4(style="background-color:#F1F8E9")
         p.text-bold.text-center.mb-0 #[b CCE = Días de inventario + Días de cuentas por cobrar - Días de cuentas por pagar]
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-lg-5.col-8.mb-lg-0.mb-5(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema1/img-17.svg' alt="Imagen decorativa")
+        img(src='@/assets/curso/temas/tema1/img-17_1.png' alt="Imagen decorativa")
       .col-lg-5.col-12.mb-3(data-aos="fade-left")
         p Cada uno de estos componentes representa una etapa del ciclo financiero-operativo: 
         ul.lista-ul.mb-0
@@ -363,11 +363,13 @@
           li.mb-2
             i.fas.fa-angle-right(style="color:#BAC36A") 
             p.mb-0 #[b Días de cuentas por pagar:] plazo promedio que tiene la empresa para pagar a sus proveedores..
-      
+    .row.justify-content-center.align-items-center
       .col-lg-10
         p.mb-4 Por ejemplo, si una empresa tarda en promedio 45 días en vender sus inventarios, 30 días en cobrar a sus clientes y tiene un plazo de 35 días para pagar a sus proveedores, el cálculo sería:
+    .row.justify-content-center.align-items-center.mb-3
       .col-md-6.tarjeta.color-primario.p-4.mb-4(style="background-color:#F1F8E9")
         p.text-bold.text-center.mb-0 #[b CCE = 45 + 30 - 35 = 40 días]
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         p Esto significa, que, desde el momento en que la empresa invierte en inventario, hasta que recupera el efectivo de la venta, pasan 40 días en los que debe financiar sus operaciones. Este periodo debe ser gestionado con especial atención, ya que cuanto más corto sea el ciclo de conversión, mayor será la liquidez y eficiencia en el uso del capital de trabajo.
       .col-lg-10
@@ -437,7 +439,7 @@
         p Con respecto a los indicadores de endeudamiento, se deben tener los siguientes procesos, los cuales se detallan a continuación; hay que tener presente, que cada uno lleva una fórmula en dichos procesos, los cuales se ejemplifican e interpretan a la realidad: 
      
       .col-lg-5.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema1/img-22.svg' alt="Imagen decorativa")
+        img(src='@/assets/curso/temas/tema1/img-22.png' alt="Imagen decorativa")
     
     .row.justify-content-center.align-items-center.mb-3(data-aos="fade-down-right")
       .col-lg-10
@@ -584,7 +586,7 @@
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down-right")(style="background-color:#B0BDA0") 
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-21.png')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-21_1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p Según Ortiz (2011), una buena gestión de activos como inventarios, cuentas por cobrar y cuentas por pagar, refleja una administración financiera eficiente, mientras que una rotación lenta o un ciclo operativo prolongado puede indicar problemas de liquidez, acumulación de inventarios o deficiencias en la política de cobros o pagos.
@@ -670,7 +672,7 @@
       p.mb-5 El Ciclo de Conversión de Efectivo (CCE) es una herramienta clave para medir la eficiencia de la gestión financiera-operativa de una empresa. Cuanto más corto sea este ciclo, más rápido se recupera el efectivo invertido en el proceso productivo y comercial. Es decir, un CCE reducido indica que la empresa convierte sus inversiones en inventarios y cuentas por cobrar en dinero líquido en menos tiempo, lo cual fortalece su liquidez, reduce su dependencia del crédito y mejora su capacidad para operar con recursos propios.
 
       .col-lg-3.col-8.mb-lg-0.mb-4.d-none.d-lg-block
-        img(src='@/assets/curso/temas/tema1/img-37.svg' alt="Imagen decorativa")
+        img(src='@/assets/curso/temas/tema1/img-37.png' alt="Imagen decorativa")
       .col-lg-7.col-12.mb-3(data-aos="fade-left")
         p(data-aos="fade-right") Cuando una organización logra acortar su CCE, puede disponer más rápidamente de recursos para cubrir sus necesidades operativas, pagar a proveedores, invertir en nuevos proyectos o responder a oportunidades del mercado. Esta eficiencia en la gestión del capital de trabajo también le permite disminuir los costos financieros, al reducir su necesidad de endeudamiento o de uso de líneas de crédito para cubrir déficits temporales de caja.
         p(data-aos="fade-right") Por ejemplo, si una empresa logra negociar mejores plazos con sus proveedores (aumentando los días de cuentas por pagar), mejorar sus procesos de cobro (reduciendo los días de cartera), y mantener una rotación saludable de inventarios, puede lograr un CCE cercano a cero o incluso negativo. Esto significa que recibe el efectivo de las ventas antes de tener que pagar a sus proveedores, lo que representa una ventaja competitiva importante en términos de flujo de caja.
@@ -692,22 +694,22 @@
     p.mb-4(data-aos="fade-down-right") Los indicadores de actividad, permiten evaluar con precisión la eficiencia operativa de una empresa en el manejo de sus recursos clave: 
 
     .tarjeta--container.row.mb-4
-      .col-md.tarjeta.bgA10.p-5.mb-3(data-aos="fade-down-right") 
-        .row.justify-content-center.align-items-center.mb-4
+      .col-md.tarjeta.bgA10.p-4(data-aos="fade-down-right") 
+        .row.justify-content-center.align-items-center
           .col-auto
             img(src='@/assets/curso/temas/tema1/icono-11.svg', style="max-width: 82px", alt='').m-auto
           .col
             p.mb-0 Inventarios
          
-      .col-md.tarjeta.bgA10.p-5.mb-3(data-aos="fade-down-right") 
-        .row.justify-content-center.align-items-center.mb-4
+      .col-md.tarjeta.bgA10.p-4(data-aos="fade-down-right") 
+        .row.justify-content-center.align-items-center
           .col-auto
             img(src='@/assets/curso/temas/tema1/icono-12.svg', style="max-width: 82px", alt='').m-auto
           .col
             p.mb-0 Cuentas por cobrar
 
-      .col-md.tarjeta.bgA10.p-5.mb-3(data-aos="fade-down-right") 
-        .row.justify-content-center.align-items-center.mb-4
+      .col-md.tarjeta.bgA10.p-4(data-aos="fade-down-right") 
+        .row.justify-content-center.align-items-center
           .col-auto
             img(src='@/assets/curso/temas/tema1/icono-13.svg', style="max-width: 82px", alt='').m-auto
           .col
@@ -717,7 +719,7 @@
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down-right")(style="background-color:#B0BDA0") 
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-21.png')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-21_2.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p Sin embargo, la eficiencia no debe interpretarse solo como rapidez. Una rotación demasiado alta o un ciclo demasiado corto pueden implicar riesgos si no están alineados con la realidad del negocio, el comportamiento del mercado o las condiciones comerciales. Por eso, los indicadores de actividad deben analizarse de forma integral, complementándose con datos de liquidez, endeudamiento y rentabilidad, y considerando las características específicas de la empresa. Solo así pueden convertirse en una herramienta útil para la toma de decisiones estratégicas y para garantizar una gestión financiera sostenible.
@@ -899,7 +901,7 @@
       //- estas clases tambien tienen un modificador --borde
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
-          .col-3
+          .col-lg-3.col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/icono-18.svg', alt='Texto que describa la imagen')
           
@@ -911,7 +913,7 @@
       //- estas clases tambien tienen un modificador --borde
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
-          .col-3
+          .col-lg-3.col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/icono-19.svg', alt='Texto que describa la imagen')
           
