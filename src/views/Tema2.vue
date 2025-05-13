@@ -111,12 +111,12 @@
     p.mb-4(data-aos="fade-down-right") No obstante, el verdadero valor de estos indicadores no está solo en su cálculo, sino en su interpretación dentro del contexto del negocio. Una empresa no debe basar su análisis financiero en cifras absolutas, sino en relaciones, tendencias y comparaciones. Así, se hace necesario que estos indicadores se analicen como un conjunto articulado, no como cifras aisladas. Además, deben adaptarse a la realidad de cada organización, su tamaño, sector, ciclo de vida y objetivos estratégicos.
 
     .row.fondo2-t2.justify-content-center.align-items-center.py-3.px-lg-5.px-4.ordenar_tarjeta.mb-4(data-aos="zoom-in")
-      .col-lg-6.order-lg-1.order-2.mb-5(data-aos="fade-right")
+      .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
         p Hoy en día, el uso de herramientas digitales y sistemas de visualización financiera como Excel avanzado, Power BI o tableros de control, ha fortalecido significativamente la manera como se gestionan estos indicadores. Estas plataformas permiten automatizar procesos, actualizar datos en tiempo real y tomar decisiones con mayor agilidad. Así, el análisis financiero deja de ser una tarea meramente contable y se convierte en un proceso dinámico de gestión estratégica que impacta directamente en la competitividad de la empresa.
         p En conclusión, los indicadores financieros son mucho más que fórmulas: son instrumentos clave para la sostenibilidad, el crecimiento y la toma de decisiones informadas. Su aplicación exige conocimiento técnico, pensamiento crítico, uso de tecnología y comprensión profunda del entorno empresarial. Incorporar el análisis de indicadores en la cultura organizacional fortalece la visión a largo plazo, mejora el desempeño y potencia el liderazgo financiero dentro de cualquier organización.
 
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema2/img-04.svg' alt="Imagen decorativa")
+        img(src='@/assets/curso/temas/tema2/img-04.png' alt="Imagen decorativa")
 
 
 

@@ -152,7 +152,7 @@
 
       .col-lg-3.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema1/img-07.svg' alt="Imagen decorativa")
-      .col-lg-7.col-12.mb-3(data-aos="fade-left")
+      .col-lg-7.col-12(data-aos="fade-left")
         p Los indicadores de liquidez son herramientas financieras que permiten medir la capacidad que tiene una empresa para hacer frente a sus compromisos financieros inmediatos; es decir, sus deudas a corto plazo. Este tipo de análisis es crucial para garantizar la operatividad continua del negocio, ya que una empresa con baja liquidez corre el riesgo de no poder pagar a sus proveedores, empleados, bancos u otras entidades, lo cual puede afectar negativamente su reputación, generar intereses por mora o incluso llevarla a la insolvencia.
 
     p.mb-5(data-aos="fade-down-right") Estos indicadores se enfocan en establecer una relación entre: 
@@ -390,7 +390,7 @@
           img(src='@/assets/curso/temas/tema1/img-v18-02.svg', alt="Imagen decorativa")
 
     .row.fondo2-t2.justify-content-center.align-items-center.py-3.px-lg-5.px-4.ordenar_tarjeta.mb-4(data-aos="zoom-in")
-      .col-lg-6.order-lg-1.order-2.mb-5(data-aos="fade-right")
+      .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
         p Este es el caso típico de grandes cadenas de retail o supermercados, que venden en efectivo y pagan a sus proveedores a crédito, lo cual mejora significativamente su flujo de caja.
         p Ahora bien, un CCE demasiado largo puede ser una señal de problemas en la rotación de inventarios o en la gestión de cartera, lo que puede provocar escasez de efectivo, mayores costos financieros o incluso frenar el crecimiento del negocio. Por eso, las empresas deben trabajar en estrategias para acelerar las ventas, reducir los plazos de cobro y negociar mejores condiciones con sus proveedores.
         p Ortiz (2011), hace referencia a que el ciclo de conversión de efectivo, es un indicador esencial para comprender cómo se está utilizando el capital de trabajo en las operaciones cotidianas. Su análisis, permite anticipar tensiones de liquidez, optimizar procesos logísticos y financieros, además de diseñar políticas de crédito y compras más eficientes. En empresas en crecimiento, controlar el CCE puede marcar la diferencia entre el éxito y el estancamiento.
@@ -434,7 +434,7 @@
     .row.fondo2-t2.justify-content-center.align-items-center.py-3.px-lg-5.px-4.ordenar_tarjeta.mb-4(data-aos="zoom-in")
       p.mb-5(data-aos="fade-left") Estos indicadores permiten analizar el grado de dependencia que tiene una empresa, respecto a recursos financieros de terceros; es decir, si su operación se financia mayoritariamente con capital propio o con deuda. Este tipo de indicadores es esencial para evaluar la solvencia financiera de la organización, el nivel de riesgo al que está expuesta y su capacidad para responder ante sus obligaciones.
 
-      .col-lg-5.order-lg-1.order-2.mb-5(data-aos="fade-right")
+      .col-lg-5.order-lg-1.order-2(data-aos="fade-right")
         p Ortiz (2011), al respecto, indica que un nivel adecuado de endeudamiento puede potenciar el crecimiento de una empresa, siempre que la rentabilidad generada por los activos adquiridos con deuda supere el costo financiero de esa misma deuda. No obstante, un endeudamiento excesivo compromete la estabilidad financiera, limita la capacidad de maniobra, encarece el crédito futuro y puede generar desconfianza en inversionistas, proveedores y entidades bancarias.
         p Con respecto a los indicadores de endeudamiento, se deben tener los siguientes procesos, los cuales se detallan a continuación; hay que tener presente, que cada uno lleva una fórmula en dichos procesos, los cuales se ejemplifican e interpretan a la realidad: 
      
@@ -901,7 +901,7 @@
       //- estas clases tambien tienen un modificador --borde
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
-          .col-lg-3.col-md-6
+          .col-lg-3.col-md-6.col-5
             figure
               img(src='@/assets/curso/temas/tema1/icono-18.svg', alt='Texto que describa la imagen')
           
@@ -913,7 +913,7 @@
       //- estas clases tambien tienen un modificador --borde
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
-          .col-lg-3.col-md-6
+          .col-lg-3.col-md-6.col-5
             figure
               img(src='@/assets/curso/temas/tema1/icono-19.svg', alt='Texto que describa la imagen')
           
