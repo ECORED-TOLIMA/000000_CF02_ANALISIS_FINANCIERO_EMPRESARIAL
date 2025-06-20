@@ -7,7 +7,7 @@
         span 1
       h1 Conceptos generales de los indicadores financieros
 
-    p.mb-4(data-aos="fade-down-right") Los indicadores financieros son herramientas cuantitativas esenciales en el análisis económico de las organizaciones. A partir de datos extraídos de los estados financieros, estos indicadores permiten construir relaciones numéricas que ayudan a entender la situación real de una empresa. Su propósito no es únicamente describir cifras, sino traducir la información contable en señales claras para evaluar la estabilidad, el rendimiento y la gestión financiera. Se convierten así en instrumentos que brindan una radiografía del estado económico de una empresa en un periodo determinado o en comparación con ejercicios anteriores o referentes del sector.
+    p.mb-4(data-aos="fade-down-right") Los indicadores financieros son herramientas cuantitativas esenciales en el análisis económico de las organizaciones. A partir de datos extraídos de los estados financieros, estos indicadores permiten construir relaciones numéricas que ayudan a entender la situación real de una empresa. Su propósito no es únicamente describir cifras, sino #[b traducir la información contable en señales claras] para evaluar la estabilidad, el rendimiento y la gestión financiera. Se convierten así en instrumentos que brindan una radiografía del estado económico de una empresa en un periodo determinado o en comparación con ejercicios anteriores o referentes del sector.
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade-down-right")(style="background-color:#B0BDA0") 
       .bloque-texto-g__img(
@@ -153,7 +153,7 @@
       .col-lg-3.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema1/img-07.svg' alt="Imagen decorativa")
       .col-lg-7.col-12(data-aos="fade-left")
-        p Los indicadores de liquidez son herramientas financieras que permiten medir la capacidad que tiene una empresa para hacer frente a sus compromisos financieros inmediatos; es decir, sus deudas a corto plazo. Este tipo de análisis es crucial para garantizar la operatividad continua del negocio, ya que una empresa con baja liquidez corre el riesgo de no poder pagar a sus proveedores, empleados, bancos u otras entidades, lo cual puede afectar negativamente su reputación, generar intereses por mora o incluso llevarla a la insolvencia.
+        p Los #[b indicadores de liquidez] son herramientas financieras que permiten medir la capacidad que tiene una empresa para #[b hacer frente a sus compromisos financieros inmediatos;] es decir, sus deudas a corto plazo. Este tipo de análisis es crucial para garantizar la operatividad continua del negocio, ya que una empresa con baja liquidez corre el riesgo de no poder pagar a sus proveedores, empleados, bancos u otras entidades, lo cual puede afectar negativamente su reputación, generar intereses por mora o incluso llevarla a la insolvencia.
 
     p.mb-5(data-aos="fade-down-right") Estos indicadores se enfocan en establecer una relación entre: 
 
@@ -217,7 +217,7 @@
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .cajon-b.color-secundario.p-3.col-lg-10.col-12
-        p Según Ortiz (2011), una correcta interpretación de los indicadores de liquidez permite tomar decisiones acertadas sobre la gestión del efectivo, la política de créditos y cobros, así como la planificación del capital de trabajo. En contextos de incertidumbre económica o cambios en la demanda, una liquidez adecuada actúa como colchón de seguridad para garantizar la continuidad del negocio. Por ello, estos indicadores deben monitorearse constantemente, compararse con promedios del sector y ajustarse a la realidad operativa de cada empresa.
+        p Según Ortiz (2011), una correcta interpretación de los indicadores de liquidez permite tomar decisiones acertadas sobre la #[b gestión del efectivo,] la #[b política de créditos y cobros,] así como la #[b planificación del capital de trabajo.] En contextos de incertidumbre económica o cambios en la demanda, una liquidez adecuada actúa como colchón de seguridad para garantizar la continuidad del negocio. Por ello, estos indicadores deben monitorearse constantemente, compararse con promedios del sector y ajustarse a la realidad operativa de cada empresa.
         p.mb-4 A continuación, se explica en mayor medida, cada uno de estos indicadores:
 
     .h4.tcvo.mb-4(data-aos="fade-down-right") ● La razón corriente

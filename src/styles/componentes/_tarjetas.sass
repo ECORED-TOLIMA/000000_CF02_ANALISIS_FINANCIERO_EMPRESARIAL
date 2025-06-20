@@ -427,3 +427,66 @@
       display: none
     i:last-child
       display: block
+
+.cajon 
+  position: relative
+
+.cajon--C01
+  background-color: #F1F8E9
+
+//- Modulo tarjetas hover - horizontal
+
+.img90
+  width: 90px 
+.img50
+  width: 50px
+.img100
+  width: 100px
+.img150
+  width: 150px
+.img180
+  width: 180px
+.img200
+  width: 200px
+.img250
+  width: 250px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #E5E9FE
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #F1F8E9 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none

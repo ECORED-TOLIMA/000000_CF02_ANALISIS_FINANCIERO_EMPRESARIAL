@@ -57,12 +57,17 @@ export default {
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
         titulo:
           'La aplicación de los indicadores financieros en la toma de decisiones',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema3',
+        numero: '3',
+        titulo: 'Indicadores de gestión',
         desarrolloContenidos: true,
       },
     ],

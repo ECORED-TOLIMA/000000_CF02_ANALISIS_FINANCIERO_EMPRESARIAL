@@ -67,13 +67,13 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-lg-10.col-12
-        .tarjeta.tarjeta--gris2.p-2
-          .row.justify-content-center.align-items-center.mb-3
+        .cajon.cajon--C01.p-2.mb-4(style="background-color: #F1F8E9")
+          .row.justify-content-center.align-items-center
             .col-3.d-none.d-lg-block.order-lg-2.order-2.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema2/img-02.svg', alt='Imagen decorativa')
-            .col-lg-6.col-12.mb-3.order-lg-1.order-2.mb-lg-0.p-2
-              p El uso de dashboards o tableros de control financiero, por ejemplo, facilita una lectura intuitiva del desempeño de la empresa a través de gráficos dinámicos que conectan los principales indicadores con las metas estratégicas. De esta forma, la información contable deja de ser estática y se convierte en un recurso vivo, que se actualiza constantemente y permite tomar decisiones de forma oportuna, con una perspectiva más clara del impacto de cada acción.
+            .col-lg-6.col-12.mb-3.order-lg-1.order-2.mb-lg-0.p-4
+              p El uso de #[em dashboards] o tableros de control financiero, por ejemplo, facilita una lectura intuitiva del desempeño de la empresa a través de gráficos dinámicos que conectan los principales indicadores con las metas estratégicas. De esta forma, la información contable deja de ser estática y se convierte en un recurso vivo, que se actualiza constantemente y permite tomar decisiones de forma oportuna, con una perspectiva más clara del impacto de cada acción.
               p Es importante resaltar que la interpretación adecuada de los indicadores requiere formación, criterio y contexto. No basta con calcular fórmulas; se necesita comprender qué representan los resultados, qué los está afectando y cómo se comparan con periodos anteriores o con otras empresas del sector. La experiencia y el conocimiento del negocio son complementos esenciales para dar sentido a los números y convertirlos en decisiones acertadas.
 
     p.mb-5(data-aos="fade-down-right") En conclusión, los indicadores financieros son herramientas poderosas de gestión, pero su verdadero valor se revela cuando se usan de forma estratégica, integrada y apoyados en tecnología. Son el puente entre los datos y las decisiones, y permiten a la empresa no solo saber dónde está, sino también proyectar hacia dónde quiere ir, con fundamentos sólidos que disminuyan el riesgo y maximicen el potencial de crecimiento.
