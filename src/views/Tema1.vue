@@ -37,10 +37,10 @@
     p.mb-4(data-aos="fade-down-right") La utilidad de los indicadores va más allá del diagnóstico financiero. También cumplen un rol fundamental en la planificación, control y evaluación dentro del proceso administrativo. Gerentes, inversionistas, entidades financieras y entes de control, utilizan estas métricas para: 
 
     .tarjeta1.tarjeta--BG02.px-md-5.px-4.mb-4
-      .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-3.d-none.d-lg-block
+      .row.justify-content-center.align-items-end(data-aos="fade-down")
+        .col-lg-3.d-none.d-lg-block.px-0
           figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/tema1/img-02.png", alt="alt").img400.m-auto
+            img(src="@/assets/curso/temas/tema1/img-02.png", alt="alt").m-auto
         .col-lg-9
           SlyderF.custom(columnas="col-lg-6 col-xl-4")
             .tarjeta.tarjeta--slyder.p-4
@@ -70,7 +70,7 @@
     .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
       .col-lg-8
         .cajon.color-primario.p-4
-          p Por ejemplo, un indicador como la razón corriente (activo corriente/pasivo corriente) revela en segundos si una empresa tiene capacidad para pagar sus obligaciones inmediatas. De esta manera, los indicadores permiten transformar los datos contables —en apariencia fríos y abstractos— en criterios concretos de gestión y control.
+          p.mb-0 Por ejemplo, un indicador como la razón corriente (activo corriente/pasivo corriente) revela en segundos si una empresa tiene capacidad para pagar sus obligaciones inmediatas. De esta manera, los indicadores permiten transformar los datos contables —en apariencia fríos y abstractos— en criterios concretos de gestión y control.
 
     p.mb-4(data-aos="fade-down-right") Los indicadores financieros se agrupan comúnmente en cuatro grandes categorías, cada una con una función específica:  
 
@@ -165,7 +165,7 @@
           .tarjeta.color1(style= "width: 100%")
             .p-4
               h4 Activos corrientes
-              p Aquellos bienes y derechos que pueden convertirse fácilmente en efectivo en menos de un año. Entre los activos corrientes se encuentran el efectivo, las cuentas por cobrar, los inventarios y otros activos líquidos.
+              p.mb-0 Aquellos bienes y derechos que pueden convertirse fácilmente en efectivo en menos de un año. Entre los activos corrientes se encuentran el efectivo, las cuentas por cobrar, los inventarios y otros activos líquidos.
 
       .col-lg-6.mb-3
         .tarjeta-avatar-b
@@ -174,7 +174,7 @@
           .tarjeta.color1(style= "width: 100%")
             .p-4
               h4 Pasivos corrientes
-              p Representan las obligaciones que deben pagarse en ese mismo periodo. Los pasivos corrientes incluyen préstamos bancarios de corto plazo, cuentas por pagar a proveedores y otras deudas próximas a vencerse.
+              p.mb-0 Representan las obligaciones que deben pagarse en ese mismo periodo. Los pasivos corrientes incluyen préstamos bancarios de corto plazo, cuentas por pagar a proveedores y otras deudas próximas a vencerse.
 
     p(data-aos="fade-down-right") El análisis de liquidez es especialmente importante en negocios que operan con márgenes ajustados o que tienen una alta rotación de inventarios y cuentas por cobrar. Incluso una empresa rentable puede atravesar problemas financieros si no gestiona adecuadamente su liquidez. Por ejemplo, si una empresa tiene muchas ventas a crédito, pero no logra recaudar a tiempo, puede enfrentar dificultades para cumplir con sus compromisos, a pesar de tener utilidades contables.
     p.mb-5(data-aos="fade-down-right") Entre los indicadores más representativos de esta categoría se encuentran:  
@@ -259,7 +259,7 @@
         .tarjeta.BG04.p-4.mb-3(style="background-color:#DCEDC8")
           p #[b Ejemplo:]
           p Si una empresa tiene un activo corriente de $80.000.000 y dentro de este tiene inventarios por $20.000.000, su activo corriente sin inventarios sería de $60.000.000. Si sus pasivos corrientes suman $40.000.000, entonces:
-          p #[b Prueba Ácida = (80.000.000 - 20.000.000) / 40.000.000 = 1.5]
+          p.mb-0 #[b Prueba Ácida = (80.000.000 - 20.000.000) / 40.000.000 = 1.5]
 
         p Este resultado significa que la empresa tiene $1,50 por cada $1 de deuda de corto plazo, considerando únicamente sus activos más líquidos (excluyendo los inventarios). Esta es una señal positiva, ya que muestra que, en caso de urgencia, la empresa podría cubrir sus obligaciones sin necesidad de liquidar inventarios, lo que generalmente requiere más tiempo y puede implicar descuentos u otras pérdidas.
     
@@ -291,7 +291,7 @@
       .col-lg-6(data-aos="fade-left")
         .tarjeta.BG04.p-4.mb-3(style="background-color:#DCEDC8")
           p #[b Ejemplo:]
-          p Si una empresa tiene activos corrientes por $80.000.000 y pasivos corrientes por $40.000.000, su capital de trabajo será de $40.000.000. Esto significa que, una vez pagadas todas sus deudas inmediatas, aún le quedarán $40 millones para cubrir operaciones como compras, nómina, pagos de servicios, y otras necesidades operativas.
+          p.mb-0 Si una empresa tiene activos corrientes por $80.000.000 y pasivos corrientes por $40.000.000, su capital de trabajo será de $40.000.000. Esto significa que, una vez pagadas todas sus deudas inmediatas, aún le quedarán $40 millones para cubrir operaciones como compras, nómina, pagos de servicios, y otras necesidades operativas.
 
         p Una lectura positiva del capital de trabajo, implica que la empresa tiene margen de maniobra para operar sin depender exclusivamente de líneas de crédito u otras formas de financiamiento de emergencia. Sin embargo, un capital de trabajo excesivamente alto podría significar que la empresa tiene recursos ociosos (por ejemplo, mucho efectivo sin invertir, o inventarios innecesarios), lo cual también puede ser ineficiente. Por eso, más que su valor absoluto, lo importante es que este indicador esté en equilibrio con el tamaño y tipo de operación de la empresa.
 
@@ -380,11 +380,9 @@
             figure
               img(src='@/assets/curso/temas/tema1/img-v18-01.svg', alt="Imagen decorativa")
           .tarjeta.BG03.p-3(x="14%" y="40%" numero="+")
-            p.text-center CCE positivo
-            p Indica que la empresa necesita financiar parte del ciclo operativo con recursos propios o con deuda, ya que debe esperar a recuperar el efectivo. 
+            p.mb-0 Indica que la empresa necesita financiar parte del ciclo operativo con recursos propios o con deuda, ya que debe esperar a recuperar el efectivo. 
           .tarjeta.BG03.p-3(x="85.7%" y="58%" numero="+")
-            p.text-center CCE negativo 
-            p Puede interpretarse favorablemente, ya que implica que la empresa recibe el pago de sus clientes antes de tener que pagar a sus proveedores. 
+            p.mb-0 Puede interpretarse favorablemente, ya que implica que la empresa recibe el pago de sus clientes antes de tener que pagar a sus proveedores. 
       .col-lg-10.d-lg-none.d-flex
         figure
           img(src='@/assets/curso/temas/tema1/img-v18-02.svg', alt="Imagen decorativa")
@@ -444,8 +442,8 @@
     .row.justify-content-center.align-items-center.mb-3(data-aos="fade-down-right")
       .col-lg-10
         LineaTiempoD.color-acento-botones.especial.mb-4
-          .row(numero="1" titulo="Razón de endeudamiento")
-            .col-md-12.mb-4.mb-md-0 
+          .row.p-4(numero="1" titulo="Razón de endeudamiento")
+            .col-lg-12.order-lg-1.order-2
               p.mb-0 #[b Fórmula]
               p Razón de Endeudamiento = Pasivo Total / Activo Total
               p.mb-0 #[b Ejemplo]
@@ -453,14 +451,17 @@
               p.mb-0 Activo total = $300.000.000
               p Razón de Endeudamiento = 120.000.000 / 300.000.000 = 0.40 o 40 %
 
-            .col-md-12.bgblanco.p-3
-              p.mb-0 #[b Interpretación]
-              p Esto indica que el 40 % de los activos están financiados con recursos de terceros y el 60 % con capital propio. Un nivel de endeudamiento entre el 40 % y el 60 % puede considerarse razonable, dependiendo del sector. Niveles superiores podrían implicar alto riesgo financiero.
-
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p.mb-0 #[b Interpretación]
+                p.mb-0 Esto indica que el 40 % de los activos están financiados con recursos de terceros y el 60 % con capital propio. Un nivel de endeudamiento entre el 40 % y el 60 % puede considerarse razonable, dependiendo del sector. Niveles superiores podrían implicar alto riesgo financiero.
+            
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
-                img(src='@/assets/curso/temas/tema1/img-23.png', alt='Texto que describa la imagen')
-          .row(numero="2" titulo="Cobertura de intereses")
-            .col-md-12.mb-4.mb-md-0 
+                img(src='@/assets/curso/temas/tema1/img-23.png', alt='Imagen decorativa')
+
+          .row.p-4(numero="2" titulo="Cobertura de intereses")
+            .col-lg-12.order-lg-1.order-2
               p.mb-0 #[b Fórmula]
               p Cobertura de Intereses = Utilidad Operacional / Gastos por Intereses
               p.mb-0 #[b Ejemplo]
@@ -468,14 +469,17 @@
               p.mb-0 Gastos financieros = $20.000.000
               p Cobertura = 80.000.000 / 20.000.000 = 4 veces
 
-            .col-md-12.bgblanco.p-3
-              p.mb-0 #[b Interpretación]
-              p Esto significa que la empresa genera 4 veces más utilidad operativa de la necesaria para cubrir los intereses de su deuda. Un índice menor a 2 es preocupante, ya que indica dificultades para sostener el servicio de la deuda sin comprometer otras operaciones.
-              
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p.mb-0 #[b Interpretación]
+                p.mb-0 Esto significa que la empresa genera 4 veces más utilidad operativa de la necesaria para cubrir los intereses de su deuda. Un índice menor a 2 es preocupante, ya que indica dificultades para sostener el servicio de la deuda sin comprometer otras operaciones.
+            
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema1/img-24.png', alt='Texto que describa la imagen')
-          .row(numero="3" titulo="Apalancamiento financiero")
-            .col-md-12.mb-4.mb-md-0 
+
+          .row.p-4(numero="3" titulo="Apalancamiento financiero")
+            .col-lg-12.order-lg-1.order-2
               p.mb-0 #[b Fórmula]
               p Apalancamiento = Activos Totales / Patrimonio
               p.mb-0 #[b Ejemplo]
@@ -483,14 +487,17 @@
               p.mb-0 Patrimonio = $180.000.000
               p Apalancamiento = 300.000.000 / 180.000.000 = 1.67
 
-            .col-md-12.bgblanco.p-3
-              p.mb-0 #[b Interpretación]
-              p Por cada peso invertido por los socios, la empresa ha financiado $1.67 en activos. Un apalancamiento moderado (entre 1.5 y 2.0) puede ser positivo si la rentabilidad de los activos supera el costo del financiamiento.
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p.mb-0 #[b Interpretación]
+                p.mb-0 Por cada peso invertido por los socios, la empresa ha financiado $1.67 en activos. Un apalancamiento moderado (entre 1.5 y 2.0) puede ser positivo si la rentabilidad de los activos supera el costo del financiamiento.
 
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema1/img-25.png', alt='Texto que describa la imagen')
-          .row(numero="4" titulo="Endeudamiento del patrimonio")
-            .col-md-12.mb-4.mb-md-0 
+
+          .row.p-4(numero="4" titulo="Endeudamiento del patrimonio")
+            .col-lg-12.order-lg-1.order-2
               p.mb-0 #[b Fórmula]
               p Endeudamiento del Patrimonio = Pasivo Total / Patrimonio
               p.mb-0 #[b Ejemplo]
@@ -498,15 +505,17 @@
               p.mb-0 Patrimonio = $180.000.000
               p Endeudamiento del Patrimonio = 120.000.000 / 180.000.000 = 0.67
 
-            .col-md-12.bgblanco.p-3
-              p.mb-0 #[b Interpretación]
-              p Por cada peso de capital propio, la empresa tiene $0.67 en deudas. Este indicador es útil para evaluar la estructura de capital y el riesgo asumido por los accionistas. Valores mayores a 1 indican que la empresa depende más de la deuda que de su propio capital. 
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p.mb-0 #[b Interpretación]
+                p.mb-0 Por cada peso de capital propio, la empresa tiene $0.67 en deudas. Este indicador es útil para evaluar la estructura de capital y el riesgo asumido por los accionistas. Valores mayores a 1 indican que la empresa depende más de la deuda que de su propio capital. 
 
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema1/img-26.png', alt='Texto que describa la imagen')
 
-          .row(numero="5" titulo="Pasivo corriente sobre total pasivo")
-            .col-md-12.mb-4.mb-md-0 
+          .row.p-4(numero="5" titulo="Pasivo corriente sobre total pasivo")
+            .col-lg-12.order-lg-1.order-2 
               p.mb-0 #[b Fórmula]
               p Pasivo Corriente / Pasivo Total
               p.mb-0 #[b Ejemplo]
@@ -514,15 +523,17 @@
               p.mb-0 Pasivo total = $120.000.000
               p Resultado: 70.000.000 / 120.000.000 = 0.583 o 58.3 %
 
-            .col-md-12.bgblanco.p-3
-              p.mb-0 #[b Interpretación]
-              p Este indicador revela qué proporción de la deuda total debe ser pagada en el corto plazo. Si el valor es muy alto, puede representar presión sobre la liquidez. Lo ideal es mantener un equilibrio entre deuda de corto y largo plazo, según la capacidad de generación de efectivo.
-
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p.mb-0 #[b Interpretación]
+                p.mb-0 Este indicador revela qué proporción de la deuda total debe ser pagada en el corto plazo. Si el valor es muy alto, puede representar presión sobre la liquidez. Lo ideal es mantener un equilibrio entre deuda de corto y largo plazo, según la capacidad de generación de efectivo.
+            
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema1/img-27.png', alt='Texto que describa la imagen')
 
-          .row(numero="6" titulo="Proporción de deuda financiera")
-            .col-md-12.mb-4.mb-md-0 
+          .row.p-4(numero="6" titulo="Proporción de deuda financiera")
+            .col-lg-12.order-lg-1.order-2 
               p.mb-0 #[b Fórmula]
               p Deuda financiera / Total Pasivo
               p.mb-0 #[b Ejemplo]
@@ -530,10 +541,12 @@
               p.mb-0 Pasivo total = $150.000.000
               p Resultado: 90.000.000 / 150.000.000 = 60 %
 
-            .col-md-12.bgblanco.p-3
-              p.mb-0 #[b Interpretación]
-              p Este indicador muestra qué parte del pasivo está comprometido con entidades financieras, lo cual puede implicar costo financiero fijo y riesgo ante cambios en tasas de interés. Cuanto mayor sea este porcentaje, mayor será la dependencia de financiamiento externo formal.
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p.mb-0 #[b Interpretación]
+                p.mb-0 Este indicador muestra qué parte del pasivo está comprometido con entidades financieras, lo cual puede implicar costo financiero fijo y riesgo ante cambios en tasas de interés. Cuanto mayor sea este porcentaje, mayor será la dependencia de financiamiento externo formal.
 
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema1/img-28.png', alt='Texto que describa la imagen')
 
@@ -556,22 +569,22 @@
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-12
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-          .row(titulo="Cobertura de intereses baja")
-            .col-md-6.mb-4.mb-md-0
-              p Cuando una empresa presenta una cobertura de intereses baja, significa que su utilidad operativa no es suficiente para cubrir cómodamente el pago de los intereses financieros. Por ejemplo, si una compañía solo logra generar el equivalente a 1,2 veces lo que debe pagar en intereses, cualquier disminución en sus ingresos —por cambios en el mercado, retrasos en los pagos de clientes o aumentos en los costos podría ponerla en una situación de iliquidez. Idealmente, la cobertura de intereses debería ser superior a 3 veces, lo que da margen de seguridad ante eventualidades.
-            .col-md-6
+          .row.justify-content-center.align-items-center(titulo="Cobertura de intereses baja")
+            .col-lg-6.order-lg-1.order-2
+              p.mb-0 Cuando una empresa presenta una cobertura de intereses baja, significa que su utilidad operativa no es suficiente para cubrir cómodamente el pago de los intereses financieros. Por ejemplo, si una compañía solo logra generar el equivalente a 1,2 veces lo que debe pagar en intereses, cualquier disminución en sus ingresos —por cambios en el mercado, retrasos en los pagos de clientes o aumentos en los costos podría ponerla en una situación de iliquidez. Idealmente, la cobertura de intereses debería ser superior a 3 veces, lo que da margen de seguridad ante eventualidades.
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img-30.png', alt='')
-          .row(titulo="Apalancamiento financiero elevado")
-            .col-md-6.mb-4.mb-md-0
-              p Un apalancamiento financiero elevado (por ejemplo, activos totales que duplican o triplican el patrimonio) refleja que la empresa está financiando una gran parte de sus operaciones con deuda. Esto implica que los dueños o accionistas están asumiendo menos riesgo financiero directo, pero también que el negocio es más vulnerable a las condiciones del mercado financiero, como el aumento de tasas de interés o la restricción del crédito. Además, si los activos financiados con deuda no generan suficiente rentabilidad, el apalancamiento se convierte en un factor que reduce el valor del patrimonio en lugar de multiplicarlo.
-            .col-md-6
+          .row.justify-content-center.align-items-center(titulo="Apalancamiento financiero elevado")
+            .col-lg-6.order-lg-1.order-2
+              p.mb-0 Un apalancamiento financiero elevado (por ejemplo, activos totales que duplican o triplican el patrimonio) refleja que la empresa está financiando una gran parte de sus operaciones con deuda. Esto implica que los dueños o accionistas están asumiendo menos riesgo financiero directo, pero también que el negocio es más vulnerable a las condiciones del mercado financiero, como el aumento de tasas de interés o la restricción del crédito. Además, si los activos financiados con deuda no generan suficiente rentabilidad, el apalancamiento se convierte en un factor que reduce el valor del patrimonio en lugar de multiplicarlo.
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img-31.png', alt='')
-          .row(titulo="Deuda bien administrada")
-            .col-md-6.mb-4.mb-md-0
-              p Puede mejorar la rentabilidad sobre el patrimonio (ROE), permitir la expansión de operaciones y fortalecer la posición competitiva. No obstante, como advierte Ortiz (2011), cuando los niveles de endeudamiento se salen de control, afectan directamente la capacidad de maniobra de la empresa. Esto se traduce en menos opciones estratégicas, mayores costos financieros, menor flexibilidad ante cambios en el entorno y, en muchos casos, una dependencia excesiva de renegociaciones o refinanciaciones constantes.
-            .col-md-6
+          .row.justify-content-center.align-items-center(titulo="Deuda bien administrada")
+            .col-lg-6.order-lg-1.order-2
+              p.mb-0 Puede mejorar la rentabilidad sobre el patrimonio (ROE), permitir la expansión de operaciones y fortalecer la posición competitiva. No obstante, como advierte Ortiz (2011), cuando los niveles de endeudamiento se salen de control, afectan directamente la capacidad de maniobra de la empresa. Esto se traduce en menos opciones estratégicas, mayores costos financieros, menor flexibilidad ante cambios en el entorno y, en muchos casos, una dependencia excesiva de renegociaciones o refinanciaciones constantes.
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img-32.png', alt='')
          
@@ -598,56 +611,66 @@
     .row.justify-content-center.align-items-center.mb-3(data-aos="fade-down-right")
       .col-lg-10
         LineaTiempoD.color-acento-botones.especial.mb-4
-          .row(numero="1" titulo="Rotación de inventarios")
-            .col-md-12.mb-4.mb-md-0 
+          .row.p-4(numero="1" titulo="Rotación de inventarios")
+            .col-lg-12.order-lg-1.order-2 
               p.mb-0 #[b Fórmula]
               p Rotación de Inventarios = Costo de Ventas / Inventario Promedioal
               p.mb-0 #[b Ejemplo]
               p.mb-0 Costo de ventas: $300.000.000
               p.mb-0 Inventario promedio: $75.000.00000
-              p Rotación = 300.000.000 / 75.000.000 = 4 veces%
+              p #[b Rotación = 300.000.000 / 75.000.000 = 4 veces]
 
-            .col-md-12.bgblanco.p-3
-              p.mb-0 #[b Interpretación]
-              p Esto significa que los inventarios se renuevan completamente 4 veces durante el periodo analizado. Una mayor rotación indica una gestión eficiente del inventario, lo que reduce costos de almacenamiento y el riesgo de obsolescencia. Una rotación muy baja puede reflejar exceso de stock o dificultades para vender los productos.
-              p Además, este indicador puede convertirse en “días de inventario” dividiendo 360 entre el número de rotaciones:
-              p La empresa tarda en promedio 90 días en vender todo su inventario.
-
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p.mb-0 #[b Interpretación]
+                p Esto significa que los inventarios se renuevan completamente 4 veces durante el periodo analizado. Una mayor rotación indica una gestión eficiente del inventario, lo que reduce costos de almacenamiento y el riesgo de obsolescencia. Una rotación muy baja puede reflejar exceso de stock o dificultades para vender los productos.
+                p.mb-0 Además, este indicador puede convertirse en #[b “días de inventario”] dividiendo 360 entre el número de rotaciones:
+                p.mb-0 #[b 360 / 4 = 9 días]
+                p.mb-0 La empresa tarda en promedio 90 días en vender todo su inventario.
+            
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema1/img-33.png', alt='Texto que describa la imagen')
-          .row(numero="2" titulo="Rotación de cuentas por cobrar")
-            .col-md-12.mb-4.mb-md-0 
+
+          .row.p-4(numero="2" titulo="Rotación de cuentas por cobrar")
+            .col-lg-12.order-lg-1.order-2 
               p.mb-0 #[b Fórmula]
               p Rotación de Cuentas por Cobrar = Ventas Netas / Cuentas por Cobrar Promedioes
               p.mb-0 #[b Ejemplo]
               p.mb-0 Ventas netas: $500.000.000
               p.mb-0 Cuentas por cobrar: $100.000.000
-              p Rotación = 500.000.000 / 100.000.000 = 5 veces
+              p #[b Rotación = 500.000.000 / 100.000.000 = 5 veces]
 
-            .col-md-12.bgblanco.p-3
-              p.mb-0 #[b Interpretación]
-              p La empresa cobra sus cuentas 5 veces al año, o cada 72 días (360/5). Este dato es vital para medir la efectividad de la política de crédito y cobranza. Una rotación baja puede ser señal de una cartera vencida creciente o de clientes con plazos de pago muy largos, lo cual reduce la liquidez.
-              p Es fundamental comparar este indicador con las condiciones de crédito pactadas. Si se otorgan plazos de 30 días, pero la rotación es de 90, hay una falla en el recaudo.
-
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p.mb-0 #[b Interpretación]
+                p La empresa cobra sus cuentas 5 veces al año, o cada #[b 72 días (360/5).] Este dato es vital para medir la #[b efectividad de la política de crédito y cobranza.] Una rotación baja puede ser señal de una cartera vencida creciente o de clientes con plazos de pago muy largos, lo cual reduce la liquidez.
+                p.mb-0 Es fundamental comparar este indicador con las condiciones de crédito pactadas. Si se otorgan plazos de 30 días, pero la rotación es de 90, hay una falla en el recaudo.
+            
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema1/img-34.png', alt='Texto que describa la imagen')
-          .row(numero="3" titulo="Rotación de cuentas por pagar")
-            .col-md-12.mb-4.mb-md-0 
+
+          .row.p-4(numero="3" titulo="Rotación de cuentas por pagar")
+            .col-lg-12.order-lg-1.order-2
               p.mb-0 #[b Fórmula]
               p Rotación de Cuentas por Pagar = Compras / Cuentas por Pagar Promedio
               p.mb-0 #[b Ejemplo]
               p.mb-0 Compras por $240.000.000 y cuentas por pagar por $60.000.000
-              p.mb-0 Rotación = 240.000.000 / 60.000.000 = 4 veces
-              p Días promedio para pagar: 360 / 4 = 90 días
+              p.mb-0 #[b Rotación = 240.000.000 / 60.000.000 = 4 veces]
+              p #[b Días promedio para pagar: 360 / 4 = 90 días]
 
-            .col-md-12.bgblanco.p-3
-              p.mb-0 #[b Interpretación]
-              p Este indicador revela cuántas veces al año la empresa paga a sus proveedores. Una rotación baja (más días para pagar) puede significar mayor liquidez a corto plazo, pero también podría afectar las relaciones comerciales si los plazos se extienden demasiado. Un equilibrio saludable es pagar dentro de los plazos negociados, sin afectar el flujo de caja ni la reputación empresarial.
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p.mb-0 #[b Interpretación]
+                p.mb-0 Este indicador revela cuántas veces al año la empresa paga a sus proveedores. Una rotación baja (más días para pagar) puede significar #[b mayor liquidez a corto plazo,] pero también podría afectar las relaciones comerciales si los plazos se extienden demasiado. Un equilibrio saludable es pagar dentro de los plazos negociados, sin afectar el flujo de caja ni la reputación empresarial.
 
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema1/img-35.png', alt='Texto que describa la imagen')
-          .row(numero="4" titulo="Ciclo de Conversión de Efectivo (CCE)")
-            .col-md-12.mb-4.mb-md-0 
+
+          .row.p-4(numero="4" titulo="Ciclo de Conversión de Efectivo (CCE)")
+            .col-lg-12.order-lg-1.order-2
               p.mb-0 #[b Fórmula]
               p CCE = Días de inventario + Días de cuentas por cobrar - Días de cuentas por pagar
               p.mb-0 #[b Ejemplo]
@@ -656,11 +679,13 @@
               p Días de cuentas por pagar: 60 días
               p #[b CCE = 90 + 72 - 60 = 102 días]
 
-            .col-md-12.bgblanco.p-3
-              p.mb-0 #[b Interpretación]
-              p El CCE de 102 días indica que la empresa necesita financiar con recursos propios o externos su operación durante ese periodo, desde que invierte en inventario hasta que cobra a los clientes, descontando el tiempo que se tarda en pagar a proveedores
-              p Un CCE alto puede generar presión sobre la liquidez, mientras que un CCE más corto o incluso negativo (como sucede en algunos modelos de #[i retail]) mejora el flujo de caja operativo.
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p.mb-0 #[b Interpretación]
+                p El CCE de 102 días indica que la empresa necesita #[b financiar con recursos propios o externos su operación durante ese periodo,] desde que invierte en inventario hasta que cobra a los clientes, descontando el tiempo que se tarda en pagar a proveedores
+                p.mb-0 Un CCE alto puede generar presión sobre la liquidez, mientras que un CCE más corto o incluso negativo (como sucede en algunos modelos de #[i retail]) mejora el flujo de caja operativo.
 
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema1/img-36.png', alt='Texto que describa la imagen')
 
@@ -676,7 +701,7 @@
       .col-lg-7.col-12.mb-3(data-aos="fade-left")
         p(data-aos="fade-right") Cuando una organización logra acortar su CCE, puede disponer más rápidamente de recursos para cubrir sus necesidades operativas, pagar a proveedores, invertir en nuevos proyectos o responder a oportunidades del mercado. Esta eficiencia en la gestión del capital de trabajo también le permite disminuir los costos financieros, al reducir su necesidad de endeudamiento o de uso de líneas de crédito para cubrir déficits temporales de caja.
         p(data-aos="fade-right") Por ejemplo, si una empresa logra negociar mejores plazos con sus proveedores (aumentando los días de cuentas por pagar), mejorar sus procesos de cobro (reduciendo los días de cartera), y mantener una rotación saludable de inventarios, puede lograr un CCE cercano a cero o incluso negativo. Esto significa que recibe el efectivo de las ventas antes de tener que pagar a sus proveedores, lo que representa una ventaja competitiva importante en términos de flujo de caja.
-        p(data-aos="fade-right") Sin embargo, esta búsqueda de eficiencia, también debe ser cautelosa y estratégica. Un CCE demasiado corto o basado en políticas agresivas puede convertirse en un riesgo. Por ejemplo, presionar excesivamente a los clientes para que paguen antes de tiempo puede afectar las relaciones comerciales o reducir las ventas, si los plazos no son competitivos frente al mercado. De igual manera, mantener niveles de inventario demasiado bajos para agilizar la rotación puede provocar quiebres de stock, afectando la capacidad de respuesta ante aumentos inesperados en la demanda o interrupciones en la cadena de suministro.
+        p(data-aos="fade-right") Sin embargo, esta búsqueda de eficiencia, también debe ser cautelosa y estratégica. Un CCE demasiado corto o basado en políticas agresivas puede convertirse en un riesgo. Por ejemplo, presionar excesivamente a los clientes para que paguen antes de tiempo puede afectar las relaciones comerciales o reducir las ventas, si los plazos no son competitivos frente al mercado. De igual manera, mantener niveles de inventario demasiado bajos para agilizar la rotación puede provocar quiebres de #[em stock,] afectando la capacidad de respuesta ante aumentos inesperados en la demanda o interrupciones en la cadena de suministro.
 
     p.mb-4(data-aos="fade-down-right") En este sentido, la gestión del ciclo de conversión de efectivo no debe enfocarse únicamente en la velocidad, sino también en la flexibilidad, resiliencia y sostenibilidad. Se trata de encontrar el equilibrio ideal entre liquidez, rentabilidad y servicio al cliente, ajustando los indicadores a las características específicas del modelo de negocio. Por ejemplo, una empresa de distribución masiva tendrá un enfoque distinto al de una empresa industrial con ciclos largos de producción.
 
@@ -740,8 +765,8 @@
     .row.justify-content-center.align-items-center.mb-3(data-aos="fade-down-right")
       .col-lg-10
         LineaTiempoD.color-acento-botones.especial.mb-4
-          .row(numero="1" titulo="Margen de utilidad bruta")
-            .col-md-12.mb-4.mb-md-0 
+          .row.p-4(numero="1" titulo="Margen de utilidad bruta")
+            .col-lg-12.order-lg-1.order-2
               p.mb-0 #[b Fórmula]
               p Margen Bruto = (Ventas - Costo de Ventas) / Ventas
               p.mb-0 #[b Ejemplo]
@@ -749,14 +774,17 @@
               p.mb-0 Costo de ventas: $300.000.000
               p Margen Bruto = (500.000.000 - 300.000.000) / 500.000.000 = 0,40 o 40 %
 
-            .col-md-12.bgblanco.p-3
-              p.mb-0 #[b Interpretación]
-              p Indica que, por cada peso vendido, la empresa obtiene 40 centavos después de cubrir el costo directo de los productos o servicios. Es un indicador clave en la gestión de precios, costos y abastecimiento.
-
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p.mb-0 #[b Interpretación]
+                p.mb-0 Indica que, por cada peso vendido, la empresa obtiene 40 centavos después de cubrir el costo directo de los productos o servicios. Es un indicador clave en la gestión de precios, costos y abastecimiento.
+            
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema1/img-39.png', alt='Texto que describa la imagen')
-          .row(numero="2" titulo="Margen de utilidad operativa")
-            .col-md-12.mb-4.mb-md-0 
+
+          .row.p-4(numero="2" titulo="Margen de utilidad operativa")
+            .col-lg-12.order-lg-1.order-2
               p.mb-0 #[b Fórmula]
               p Margen Operativo = Utilidad Operativa / Ventas
               p.mb-0 #[b Ejemplo]
@@ -764,14 +792,17 @@
               p.mb-0 Ventas = $500.000.000
               p Margen Operativo = 80.000.000 / 500.000.000 = 16 %
 
-            .col-md-12.bgblanco.p-3
-              p.mb-0 #[b Interpretación]
-              p Mide la eficiencia en la operación del negocio, excluyendo factores financieros y fiscales. Un margen alto indica buen control de gastos administrativos y operacionales.
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p.mb-0 #[b Interpretación]
+                p.mb-0 Mide la eficiencia en la operación del negocio, excluyendo factores financieros y fiscales. Un margen alto indica buen control de gastos administrativos y operacionales.
 
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema1/img-40.png', alt='Texto que describa la imagen')
-          .row(numero="3" titulo="Margen de utilidad neta")
-            .col-md-12.mb-4.mb-md-0 
+
+          .row.p-4(numero="3" titulo="Margen de utilidad neta")
+            .col-lg-12.order-lg-1.order-2
               p.mb-0 #[b Fórmula]
               p Margen Neto = Utilidad Neta / Ventas Netas
               p.mb-0 #[b Ejemplo]
@@ -779,14 +810,17 @@
               p.mb-0 Ventas netas = $500.000.000
               p Margen Neto = 50.000.000 / 500.000.000 = 10 %
 
-            .col-md-12.bgblanco.p-3
-              p.mb-0 #[b Interpretación]
-              p Refleja la rentabilidad final del negocio, después de descontar todos los gastos, impuestos e intereses. Es uno de los indicadores más observados por inversionistas, ya que mide el beneficio “real” generado por cada peso vendido.
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p.mb-0 #[b Interpretación]
+                p.mb-0 Refleja la rentabilidad final del negocio, después de descontar todos los gastos, impuestos e intereses. Es uno de los indicadores más observados por inversionistas, ya que mide el beneficio “real” generado por cada peso vendido.
 
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema1/img-41.png', alt='Texto que describa la imagen')
-          .row(numero="4" titulo="EBITDA y margen EBITDA")
-            .col-md-12.mb-4.mb-md-0 
+
+          .row.p-4(numero="4" titulo="EBITDA y margen EBITDA")
+            .col-lg-12.order-lg-1.order-2
               p #[b EBITDA (Earnings Before Interest, Taxes, Depreciation and Amortization)] es un indicador que mide la rentabilidad operacional pura, sin el impacto de decisiones financieras o contables.
               p.mb-0 #[b Fórmula]
               p EBITDA = Utilidad Operativa + Depreciaciones + Amortizaciones
@@ -797,15 +831,17 @@
 
               p #[b Margen EBITDA = EBITDA / Ventas Netas = 100.000.000 / 500.000.000 = 20 %]
 
-            .col-md-12.bgblanco.p-3
-              p.mb-0 #[b Interpretación]
-              p El margen EBITDA muestra cuánto genera el negocio en flujo de caja operativo antes de obligaciones financieras y fiscales. Es útil para comparar empresas entre sí, ya que elimina factores externos al desempeño operativo.
-
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p.mb-0 #[b Interpretación]
+                p.mb-0 El margen EBITDA muestra cuánto genera el negocio en flujo de caja operativo antes de obligaciones financieras y fiscales. Es útil para comparar empresas entre sí, ya que elimina factores externos al desempeño operativo.
+            
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema1/img-42.png', alt='Texto que describa la imagen')
 
-          .row(numero="5" titulo="ROA y ROE")
-            .col-md-12.mb-4.mb-md-0 
+          .row.p-4(numero="5" titulo="ROA y ROE")
+            .col-lg-12.order-lg-1.order-2
               p #[b ROA (Return on Assets)] 
               p.mb-0 #[b Fórmula:] ROA = Utilidad Neta / Activos Totales
               p EBITDA = Utilidad Operativa + Depreciaciones + Amortizaciones
@@ -814,15 +850,17 @@
               p.mb-0 #[b Fórmula:] ROE = Utilidad Neta / Patrimonio
               p Ejemplo: 50.000.000 / 180.000.000 = 27,8 %
 
-            .col-md-12.bgblanco.p-3
-              p.mb-0 #[b Interpretación]
-              p El ROA mide qué tan rentables son los activos de la empresa, sin importar cómo fueron financiados. El ROE, en cambio, mide el rendimiento obtenido por los socios o accionistas. Si el ROE es significativamente mayor al ROA, es señal de apalancamiento financiero: la empresa usa deuda para aumentar la rentabilidad del capital propio.
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p.mb-0 #[b Interpretación]
+                p.mb-0 El ROA mide qué tan rentables son los activos de la empresa, sin importar cómo fueron financiados. El ROE, en cambio, mide el rendimiento obtenido por los socios o accionistas. Si el ROE es significativamente mayor al ROA, es señal de apalancamiento financiero: la empresa usa deuda para aumentar la rentabilidad del capital propio.
 
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema1/img-43.png', alt='Texto que describa la imagen')
 
-          .row(numero="6" titulo="Sistema DuPont")
-            .col-md-12.mb-4.mb-md-0 
+          .row.p-4(numero="6" titulo="Sistema DuPont")
+            .col-lg-12.order-lg-1.order-2
               p El Sistema DuPont es una metodología que descompone el ROE en tres componentes clave, para entender qué factores están impulsando la rentabilidad del capital propio:
               p.mb-0 #[b Fórmula]
               p #[b ROE = (Utilidad Neta / Ventas) x (Ventas / Activos) x (Activos / Patrimonio) o]
@@ -842,10 +880,12 @@
                   |  Apalancamiento = 1.67 (Activos / Patrimonio)
               p #[b ROE = 10 % x 1.67 x 1.67 = 27.9 %]
 
-            .col-md-12.bgblanco.p-3
-              p.mb-0 #[b Interpretación]
-              p El sistema DuPont permite entender si el ROE alto es producto de una buena rentabilidad operativa (margen), de una alta eficiencia comercial (rotación) o de una estructura de capital agresiva (apalancamiento). Es ideal para tomar decisiones estratégicas.
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p.mb-0 #[b Interpretación]
+                p.mb-0 El sistema DuPont permite entender si el ROE alto es producto de una buena rentabilidad operativa (margen), de una alta eficiencia comercial (rotación) o de una estructura de capital agresiva (apalancamiento). Es ideal para tomar decisiones estratégicas.
 
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema1/img-44.png', alt='Texto que describa la imagen')
 
@@ -864,7 +904,7 @@
           .tarjeta.color1(style= "width: 100%")
             .p-4
               h4 Márgenes de utilidad
-              p Analizan la rentabilidad en distintas etapas del estado de resultados. 
+              p.mb-0 Analizan la rentabilidad en distintas etapas del estado de resultados. 
 
       .col-lg-6.mb-3
         .tarjeta-avatar-b.h-100
@@ -873,7 +913,7 @@
           .tarjeta.color1(style= "width: 100%")
             .p-4
               h4 Margen bruto
-              p Muestra lo que queda de las ventas después de cubrir el costo de los productos vendidos. 
+              p.mb-0 Muestra lo que queda de las ventas después de cubrir el costo de los productos vendidos. 
 
       .col-lg-6.mb-3
         .tarjeta-avatar-b.h-100
@@ -882,7 +922,7 @@
           .tarjeta.color1(style= "width: 100%")
             .p-4
               h4 Margen operativo
-              p Refleja la eficiencia administrativa y de operación, excluyendo gastos financieros e impuestos. 
+              p.mb-0 Refleja la eficiencia administrativa y de operación, excluyendo gastos financieros e impuestos. 
       
       .col-lg-6.mb-3
         .tarjeta-avatar-b.h-100
@@ -891,7 +931,7 @@
           .tarjeta.color1(style= "width: 100%")
             .p-4
               h4 Margen neto 
-              p Representa la utilidad real después de todos los gastos, siendo uno de los indicadores más observados por inversionistas y gerentes.
+              p.mb-0 Representa la utilidad real después de todos los gastos, siendo uno de los indicadores más observados por inversionistas y gerentes.
               
     p.mb-5(data-aos="fade-down-right") Otro grupo clave lo conforman los indicadores que relacionan las utilidades con los recursos utilizados, son los siguientes: 
 

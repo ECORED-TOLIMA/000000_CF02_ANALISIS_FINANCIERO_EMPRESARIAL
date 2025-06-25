@@ -119,25 +119,6 @@
         img(src='@/assets/curso/temas/tema2/img-04.png' alt="Imagen decorativa")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     //- .cronologia.mb-5
     //-   .contenedor
     //-     .tarjeta-evento.tarjeta-evento--paso1(data-aos="fade-left")

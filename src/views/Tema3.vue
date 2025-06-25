@@ -53,7 +53,7 @@
           .tarjeta.color1(style= "width: 100%")
             .p-4
               h4 Comercial 
-              p El porcentaje de cumplimiento de las metas de ventas.
+              p.mb-0 El porcentaje de cumplimiento de las metas de ventas.
 
       .col-lg-6.mb-3
         .tarjeta-avatar-b.h-100
@@ -62,7 +62,7 @@
           .tarjeta.color1(style= "width: 100%")
             .p-4
               h4 Producción 
-              p El nivel de eficiencia en el uso de insumos.
+              p.mb-0 El nivel de eficiencia en el uso de insumos.
 
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-right")
@@ -102,44 +102,55 @@
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down-right")
       .col-lg-10
         LineaTiempoD.color-acento-botones.especial.mb-4
-          .row(numero="1" titulo="Indicadores de eficiencia")
-            .col-md-12.mb-4.mb-md-0 
+          .row.p-4(numero="1" titulo="Indicadores de eficiencia")
+            .col-lg-12.order-lg-1.order-2
               p Miden la relación entre los recursos utilizados y los resultados obtenidos. Su objetivo es evaluar si la organización está haciendo un uso adecuado de sus recursos como tiempo, dinero, personal o materiales para generar un determinado resultado. 
 
-            .col-md-12.bgblanco.p-3
-              p Por ejemplo, un indicador de eficiencia podría ser el costo por unidad producida o el tiempo promedio de atención al cliente. 
-              p Un buen nivel de eficiencia implica lograr los resultados con el menor consumo posible de recursos.
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p Por ejemplo, un indicador de eficiencia podría ser el costo por unidad producida o el tiempo promedio de atención al cliente. 
+                p.mb-0 Un buen nivel de eficiencia implica lograr los resultados con el menor consumo posible de recursos.
 
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema3/img-03.png', alt='Texto que describa la imagen')
-          .row(numero="2" titulo="Indicadores de eficacia")
-            .col-md-12.mb-4.mb-md-0 
+
+          .row.p-4(numero="2" titulo="Indicadores de eficacia")
+            .col-lg-12.order-lg-1.order-2
               p Se enfocan en el grado de cumplimiento de los objetivos propuestos. A diferencia de la eficiencia, no consideran el uso de recursos, sino si se logró o no lo que se esperaba. 
 
-            .col-md-12.bgblanco.p-3
-              p Un ejemplo de este tipo de indicador, sería el porcentaje de cumplimiento del plan de ventas o el número de proyectos finalizados dentro del plazo estipulado. 
-              p La eficacia apunta directamente a los resultados, sin importar cómo se alcanzaron.
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p Un ejemplo de este tipo de indicador, sería el porcentaje de cumplimiento del plan de ventas o el número de proyectos finalizados dentro del plazo estipulado. 
+                p.mb-0 La eficacia apunta directamente a los resultados, sin importar cómo se alcanzaron.
 
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema3/img-04.png', alt='Texto que describa la imagen')
-          .row(numero="3" titulo="Indicadores de productividad")
-            .col-md-12.mb-4.mb-md-0 
+
+          .row.p-4(numero="3" titulo="Indicadores de productividad")
+            .col-lg-12.order-lg-1.order-2
               p Combinan elementos de eficiencia y eficacia, al medir la cantidad de productos o servicios generados en relación con los recursos utilizados.
 
-            .col-md-12.bgblanco.p-3
-              p Por ejemplo, la cantidad de unidades producidas en una planta, con relación a las horas-hombre.
-              p Son muy útiles para evaluar el rendimiento de áreas operativas. 
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p Por ejemplo, la cantidad de unidades producidas en una planta, con relación a las horas-hombre.
+                p.mb-0 Son muy útiles para evaluar el rendimiento de áreas operativas. 
 
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema3/img-05.png', alt='Texto que describa la imagen')
-          .row(numero="4" titulo="Indicadores de calidad")
-            .col-md-12.mb-4.mb-md-0 
+
+          .row.p-4(numero="4" titulo="Indicadores de calidad")
+            .col-lg-12.order-lg-1.order-2
               p Se centran en la satisfacción del cliente y en el cumplimiento de estándares establecidos. 
 
-            .col-md-12.bgblanco.p-3
-              p Un ejemplo de ello, podría ser la cantidad de productos fabricados, de los cuales alguna cierta cantidad presentaría defectos
-              p Evalúan aspectos como el número de errores, devoluciones o quejas y son fundamentales para garantizar procesos sostenibles y alineados con las expectativas del mercado.
+            .col-lg-12.order-lg-2.order-3.mb-2
+              .bgblanco.p-3
+                p Un ejemplo de ello, podría ser la cantidad de productos fabricados, de los cuales alguna cierta cantidad presentaría defectos
+                p.mb-0 Evalúan aspectos como el número de errores, devoluciones o quejas y son fundamentales para garantizar procesos sostenibles y alineados con las expectativas del mercado.
 
+            .col-lg-12.order-lg-3.order-1.mb-2
               figure
                 img(src='@/assets/curso/temas/tema3/img-06.png', alt='Texto que describa la imagen')
 
@@ -158,7 +169,7 @@
           .tarjeta.color1(style= "width: 100%")
             .p-4
               h4 Área de producción
-              p Se pueden analizar tiempos de ciclo, niveles de desperdicio o unidades producidas por hora.
+              p.mb-0 Se pueden analizar tiempos de ciclo, niveles de desperdicio o unidades producidas por hora.
 
       .col-lg-6.mb-3
         .tarjeta-avatar-b.h-100
@@ -167,7 +178,7 @@
           .tarjeta.color1(style= "width: 100%")
             .p-4
               h4 Área comercial 
-              p Se pueden observar tasas de conversión, cumplimiento de metas de ventas o niveles de satisfacción del cliente. 
+              p.mb-0 Se pueden observar tasas de conversión, cumplimiento de metas de ventas o niveles de satisfacción del cliente. 
     
     p Esta aplicación sectorizada, permite detectar puntos críticos y establecer acciones correctivas o de mejora específicas.
     p.mb-5 Adicionalmente, los indicadores:
@@ -228,7 +239,7 @@
                 img(src="@/assets/curso/temas/tema3/icono-06.svg", alt="Imagen decorativa").img100
             .col
               h4 #[em Benchmarking] 
-              p.mb-3 También se puede realizar un benchmarking, comparando los indicadores con los de empresas similares del mismo sector, lo que permite establecer parámetros de desempeño competitivo.
+              p.mb-3 También se puede realizar un #[em benchmarking,] comparando los indicadores con los de empresas similares del mismo sector, lo que permite establecer parámetros de desempeño competitivo.
         .crd.crd--avatarHorizontal.crd--last.py-4
           .row.align-items-center
             .col-auto
@@ -248,12 +259,7 @@
             .col-lg-2.col-4.mb-lg-0.mb-4 
               img.mb-3(src='@/assets/curso/temas/tema3/icono-08.svg')
             .col-lg-9
-              p Tanto los indicadores de gestión como los financieros, proporcionan información valiosa por separado; sin embargo, su verdadero poder analítico se alcanza al integrarlos en un enfoque de análisis integral, que permita identificar causas, efectos y relaciones entre los distintos aspectos del desempeño organizacionalpa
-
-
-
-
-
+              p.mb-0 Tanto los indicadores de gestión como los financieros, proporcionan información valiosa por separado; sin embargo, su verdadero poder analítico se alcanza al integrarlos en un enfoque de análisis integral, que permita identificar causas, efectos y relaciones entre los distintos aspectos del desempeño organizacional.
 
 
 </template>
