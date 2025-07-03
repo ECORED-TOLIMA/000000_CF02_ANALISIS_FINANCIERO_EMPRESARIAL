@@ -958,7 +958,7 @@
               img(src='@/assets/curso/temas/tema1/icono-19.svg', alt='Texto que describa la imagen')
           
         h2.text-center ROE (Return on Equity)
-        p Mide cuánta utilidad genera la empresa por cada peso invertido en activos. 
+        p Mide cuánta utilidad genera la empresa por cada peso invertido por los accionistas (patrimonio o capital contable), ya que esta igual que el término “ROA”. 
 
     .row.fondo2-t2.justify-content-center.align-items-center.py-3.px-lg-5.px-4.ordenar_tarjeta.mb-4(data-aos="zoom-in")
       p(data-aos="fade-down-right") Cuando el ROE es significativamente superior al ROA, suele indicar la existencia de apalancamiento financiero, es decir, que la empresa está utilizando deuda para incrementar sus beneficios, lo cual puede ser una estrategia positiva si está bien controlada.

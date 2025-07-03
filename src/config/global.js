@@ -102,7 +102,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA_02_123501_DU',
+        download: 'downloads/CFA_02_12350004_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -129,7 +129,7 @@ export default {
       tema:
         '2. La aplicación de los indicadores financieros en la toma de decisiones',
       referencia:
-        'Molina, Oña, & Typan. (2023). Indicadores financieros y su influencia en la toma de decisiones del Supermercado Open 24 & 7, Portoviejo. Manabí. Revista FIPCAEC, 8(2), 895-918.',
+        'Marcillo Parrales, D. M. & Chinga Flores, J.M. (2023). Indicadores financieros y su influencia en la toma de decisiones del Supermercado Open 24 & 7, Portoviejo. Manabí. Revista FIPCAEC, 8(1), 172-185.',
       tipo: 'Articulo',
       link: 'https://www.fipcaec.com/index.php/fipcaec/article/view/770/1393',
     },
@@ -182,7 +182,7 @@ export default {
     },
     {
       referencia:
-        'García, O. L. (2009). Administración financiera: Fundamentos y aplicaciones. (4ª Edición). Bogotá, Colombia: Editorial. Desconocida.',
+        'García, O. L. (2009). Administración financiera: Fundamentos y aplicaciones. (4ª Edición). Cali, Colombia: Prensa Moderna Impresores.',
     },
     {
       referencia:
