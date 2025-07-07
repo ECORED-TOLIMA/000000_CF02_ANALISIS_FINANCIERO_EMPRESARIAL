@@ -958,8 +958,8 @@
               img(src='@/assets/curso/temas/tema1/icono-19.svg', alt='Texto que describa la imagen')
           
         h2.text-center ROE (Return on Equity)
-        p Mide cuánta utilidad genera la empresa por cada peso invertido por los accionistas (patrimonio o capital contable), ya que esta igual que el término “ROA”. 
-
+        p Evalúa la rentabilidad obtenida por los socios o accionistas a partir de su inversión.
+        
     .row.fondo2-t2.justify-content-center.align-items-center.py-3.px-lg-5.px-4.ordenar_tarjeta.mb-4(data-aos="zoom-in")
       p(data-aos="fade-down-right") Cuando el ROE es significativamente superior al ROA, suele indicar la existencia de apalancamiento financiero, es decir, que la empresa está utilizando deuda para incrementar sus beneficios, lo cual puede ser una estrategia positiva si está bien controlada.
       p.mb-2(data-aos="fade-down-right") Finalmente, el modelo DuPont permite descomponer el ROE en tres factores: margen neto, rotación de activos y apalancamiento. Este análisis detallado ayuda a identificar qué aspecto está impulsando o limitando la rentabilidad del capital. Adicionalmente, el cálculo del EBITDA y su margen respectivo se ha vuelto muy utilizado en análisis comparativos, ya que muestra la rentabilidad operativa antes de intereses, impuestos y depreciaciones. En conjunto, todos estos indicadores ofrecen una visión profunda y estratégica del desempeño financiero, fundamental para la toma de decisiones empresariales informadas.
