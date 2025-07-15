@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Cálculo e interpretación de indicadores financieros',
+    Name: 'Cálculo e interpretación de indicadores financieros',
     descripcionCurso:
       'Este componente formativo busca que el aprendiz, comprenda, calcule e interprete los principales indicadores financieros que permiten evaluar la situación económica de una empresa. A través de ejemplos prácticos, se facilitará la aplicación de los conceptos en contextos reales que apoyen la toma de decisiones estratégicas. El enfoque será didáctico y aplicado, con cifras inventadas pero representativas del entorno empresarial colombiano.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
